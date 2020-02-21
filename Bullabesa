@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+          <title>Receta Bullabesa</title>
+     <style>
+      h1 {
+      color: rgb(114, 9, 23);  
+      text-align: left;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top:0in;
+      margin-bottom: 0in;
+      }
+    
+      h2 {
+        color: rgb(114, 9, 23);
+        text-align: left;
+        font-size: 12px;
+        margin-top:0in;
+        font-weight: normal;
+        }
+      h3 {
+        color: rgb(114, 9, 23);
+        text-align: left;
+        font-size: 12px;
+        font-weight: bold;
+        }
+      .descripción_historica {
+
+        font-size: 12px;
+        width: 60%;
+      }
+      
+
+      img {
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .ingredientes {
+        width: 20%;
+        float: left;
+      }
+      input {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .pasos {
+        width: 30%;
+        float: right;
+        margin-top: 0;
+        padding-right: 340px;
+      }
+      table { background-color: rgba(214, 104, 53, 0.13); width: 60%;
+      }
+  
+    </style>
+</head>
+
+<header>
+    <h1>Bullabesa</h1>   
+    <h2>Boullabaisse</h2> 
+      <div class="descripción_historica">
+        <p>
+         <img class="image" src="https://www.hola.com/imagenes/cocina/recetas/20190814147523/sopa-bullabesa/0-710-72/sopa-bullabesa-m.jpg" alt="Not image" align="right">
+          Lorem ipsum dolor sit, amet consectetur quis alias aliquam quos adipisicing elit. Ducimus voluptas fuga tempore nostrum. Iste quis alias aliquam quos exercitationem quisquam eum eos porro, raesentium debitis quibusdam quis alias aliquam quos error qui quis alias aliquam quos, minus rerum accusamus, veritatis illum blanditiis ut reiciendis assumenda. Laborum reiciendis, quos explicabo repellat cupiditate tempora doloribus obcaecati architecto. Facere doloribus tempora ratione. Dolor ipsa quis alias aliquam quoscupiditate voluptatum, odio doloremque repellendus similique quod veniam! Esse at ipsam veritatis fugit itaque voluptatibus vero rerum.       </p>
+      </div>
+<br>
+</header>
+
+<body>
+  <div class="pasos">
+   <p><span style="color:  rgb(114, 9, 23);">1</span>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis delectus accusantium tempora hic eaque ex eligendi, atque facere et corrupti est aut. Corrupti voluptatibus repudiandae facere tempora omnis maiores quia! </p>
+    <p> <span style="color:  rgb(114, 9, 23);">2</span>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod excepturi impedit recusandae earum natus illum ipsa nisi ullam, amet odit.</p>
+    <p> <span style="color:  rgb(114, 9, 23);">3</span>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat eos vel accusamus natus aut, enim nesciunt ad tenetur dolorum ex totam exercitationem unde explicabo fuga nulla expedita nam voluptates at molestiae vero, nihil deleniti? Dignissimos unde sapiente ullam quibusdam?
+  </div> 
+
+  <div class="ingrdientes">
+    <h3>ingredientes <span style="font-weight: normal;">(para 6 personas)</span></h3>
+      <ul>
+        <li>1 cabracho de 500 g</li>
+        <li>2 salmonetes pequeños</li>
+        <li>4 rodajas de congrio</li>
+        <li>1 pez San Pedro de 500 g</li>
+        <li>500 g de cangrejos</li>
+        <li>400 g de mejillones</li>
+        <li>4 nécoras grandes</li>
+        <li>1 Kg de patatas</li>
+        <li>3 cebollas</li>
+        <li>1 dinete de ajo</li>
+        <li>5 l de agua</li>
+        <li>1 panecillo</li>
+        <li>Azafrán</li>
+        <li>1 pizca de anís en polvo</li>
+        <li>Albahaca y cialntro frescos</li>
+        <li>Pimienta blanca</li>
+        <li>Aceite de oliva y sal</li>
+      </ul>
+  </div>
+      
+<footer>
+  <table style="text-align: center;">
+    <tr style="color:rgb(114, 9, 23); font-weight: bold;">
+      <td>dificultad</td>
+      <td>preparación</td>
+      <td>calorías</td>
+      <td>coste</td>
+      </tr>
+    <tr style="color:black;">
+      <td>alta</td>
+      <td>1h 25 min</td>
+      <td>medio</td>
+      <td>elevado</td>
+    </tr style="color: white;">
+  </table>
+  
+  </footer>     
+    <form method="post" action="miservidor.php">
+      
+          <div>
+            <label for="comentarios">Deja tu comentario</label>
+           <br>
+           <textarea placeholder="Me ha encantado la receta..."></textarea>
+          </div>
+          
+      <button type="submit">Enviar</button>
+ </form> 
